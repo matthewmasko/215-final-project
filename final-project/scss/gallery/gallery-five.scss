@@ -1,0 +1,81 @@
+.gallery-five {
+    max-width: 1280px;
+    min-height: 500px;
+  //   background-color: silver;
+  
+    .galleryFive-photo {
+      width: 980.5px;
+      height: 400.5px;
+      background-color: #3BCEAB;
+      margin: 0 auto;
+      margin-top: 50px;
+      
+  
+      img {
+          width: 980.5px;
+      height: 400.5px;
+      margin: 0 auto;
+      opacity: .2;
+      }
+    }
+  
+    .galleryFive-title {
+  
+      height: 300px;
+      max-width: 1280px;
+      padding-left: 150px;
+      padding-right: 150px;
+      color: #3BCEAB;
+      font-size: 120px;
+      font-style: bold;
+      margin-top: -300px;
+      position: relative;
+  
+      span {
+  font-family: gill-sans;
+  font-size: 300px;
+  font-style: bold;
+  color: #3BCEAB;
+      }
+    }
+  
+    .galleryFive-text {
+  
+      max-width: 1280px;
+      height: 133px;
+      // background-color: violet;
+      padding-left: 150px;
+      padding-right: 150px;
+      margin-top: 31.5px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 75px;
+      
+  
+      .text-left {
+  
+          width: 490px;
+          height: 133px;
+          // background-color: yellowgreen;
+          font-family: gill-sans;
+          font-style: italic;
+          font-size: 16px;
+  
+      }
+  
+      .text-right {
+  
+          width: 451px;
+          height: 133px;
+          // background-color: aqua;
+          font-family: gill-sans;
+          font-style: italic;
+          font-size: 16px;
+  
+  
+  
+      }
+  
+    }
+  }
+  

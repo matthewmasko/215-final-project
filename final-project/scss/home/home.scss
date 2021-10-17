@@ -1,0 +1,240 @@
+.homePage {
+  max-width: 1280px;
+  min-height: 300px;
+  //   background-color: green;
+
+  .hero {
+    max-width: 1280px;
+    height: 500px;
+    background-image: url(../images/home-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    // margin-top: -92.5px;
+
+
+    .hero-header {
+      padding-top: 150px;
+      // position: relative;
+      min-height: 52px;
+      max-width: 1280px;
+      // background-color: red;
+      text-align: center;
+
+      p {
+        font-family: pt-regular;
+        font-size: 40px;
+        color: white;
+      }
+    }
+
+    .hero-description {
+      // position: relative;
+      height: 20px;
+      max-width: 1280px;
+      // background-color: green;
+      text-align: center;
+
+      p {
+        font-family: gill-sans;
+        font-size: 20px;
+        font-style: italic;
+        color: #ee4367;
+      }
+    }
+
+    .hero-text {
+      // position: relative;
+      min-height: 20px;
+      max-width: 1280px;
+      // background-color: blue;
+      text-align: center;
+      margin-top: 50px;
+
+      p {
+        font-family: gill-sans;
+        font-size: 20px;
+        font-style: italic;
+        color: white;
+      }
+    }
+
+    .hero-button {
+      // position: relative;
+      height: 40px;
+      max-width: 1280px;
+      // background-color: purple;
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+
+      button {
+        height: 40px;
+        width: 120px;
+        background-color: #ee4367;
+        color: white;
+        font-family: gill-sans;
+        font-size: 15px;
+        text-align: center;
+        border: none;
+      }
+    }
+  }
+
+.home-filter {
+
+  max-width: 1280px;
+  height: 500px;
+  background: rgba(255, 209, 64, .89);
+  margin-top: -500px;
+}
+
+  .home-ceo {
+    max-width: 1280px;
+    min-height: 300px;
+    // background-color: green;
+
+    .ceo-quote {
+      max-width: 1280px;
+      min-height: 90px;
+      // background-color: red;
+      padding-left: 245px;
+      padding-right: 245px;
+      padding-top: 77px;
+      font-family: gill-sans;
+      font-size: 15px;
+      font-style: italic;
+      font-style: bold;
+      color: #ffd140;
+    }
+
+    .ceo-name {
+      max-width: 1280px;
+      min-height: 20px;
+      // background-color: violet;
+      margin-top: 20px;
+      padding-left: 245px;
+      font-family: pt-regular;
+      font-family: 15px;
+      color: #ee4367;
+    }
+
+    .ceo-business {
+      max-width: 1280px;
+      min-height: 200px;
+      // background-color: blue;
+      font-family: pt-regular;
+      font-family: 10px;
+      color: #a8a8a8;
+      padding-left: 245px;
+    }
+  }
+
+  .events-container {
+    max-width: 1280px;
+    min-height: 320px;
+    background-color: #540d6e;
+
+    .events-title {
+      max-width: 1280px;
+      min-height: 35px;
+      // background-color: navajowhite;
+      padding-top: 50px;
+
+      .events-titlebox {
+        height: 35px;
+        width: 392px;
+        // background-color: olive;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: white;
+        color: white;
+        font-family: gill-sans;
+        font-size: 25px;
+        margin-left: 40px;
+      }
+    }
+
+    .events-specifics {
+      max-width: 1280px;
+      min-height: 124px;
+      // background-color: paleturquoise;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .events-boxes {
+        width: 200px;
+        min-height: 120px;
+        // background-color: red;
+        display: flex;
+
+        .event-date {
+          width: 60px;
+          height: 60px;
+          background-color: #ee4367;
+          text-align: center;
+
+          h1 {
+            font-family: gill-sans;
+            font-style: bold;
+            font-size: 22px;
+            color: white;
+            margin-bottom: 0;
+            margin-top: 10px;
+          }
+
+          p {
+            font-family: gill-sans;
+            font-size: 12px;
+            color: white;
+          }
+        }
+
+        .event-text {
+          width: 140px;
+          min-height: 120px;
+          // background-color: yellowgreen;
+          padding-left: 10px;
+          padding-right: 10px;
+
+          h1 {
+            font-family: gill-sans;
+            font-size: 15px;
+            color: white;
+          }
+
+          p {
+
+            font-family: gill-sans;
+            font-size: 15px;
+            color: #ee4367;
+
+          }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+ 
+    .events-boxes {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+ 
+    .events-specifics {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }

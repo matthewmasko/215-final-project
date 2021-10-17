@@ -1,0 +1,116 @@
+.gallery {
+max-width: 1280px;
+min-height: 300px;
+// background-color: palevioletred;
+
+
+.gallery-title {
+    max-width: 1280px;
+    height: 50px;
+    // background-color: blue;
+
+    .gallery-titlebox {
+        height: 50px;
+        width: 230px;
+        // background-color: red;
+        margin-left: 150px;
+        font-family: gill-sans;
+        font-size: 25px;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        margin-top: 65.5px;
+
+    }
+
+}
+
+.gallery-top {
+max-width: 1280px;
+height: 187px;
+// background-color: palegreen;
+margin-top: 30px;
+display: flex;
+padding-left: 150px;
+padding-right: 150px;
+justify-content: space-between;
+
+.left-photo {
+width: 489px;
+height: 187px;
+background-color: #ffd140;
+
+img {
+    width: 489px;
+height: 187px;
+opacity: .2;
+}
+
+}
+
+.middle-photo {
+width: 187px;
+height: 187px;
+background-color: #EE4367;
+
+img {
+    width: 187px;
+height: 187px;
+opacity: .2;
+}
+}
+
+.right-photo {
+    width: 265px;
+    height: 187px;
+    background-color: #08AD69;
+
+    img {
+        width: 265px;
+    height: 187px;
+    opacity: .2;
+    }
+
+}
+}
+
+.gallery-bottom {
+    max-width: 1280px;
+    height: 306px;
+    // background-color: paleturquoise;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    .bottom-left {
+
+        width: 603px;
+        height: 306px;
+        background-color: #540D6E;
+
+        img {
+            width: 603px;
+        height: 306px;
+        opacity: .2;
+        }
+    }
+
+    .bottom-right {
+
+        width: 355px;
+        height: 306px;
+        background-color: #3BCEAB;
+
+        img {
+            width: 355px;
+        height: 306px;
+        opacity: .2;
+        }
+
+    }
+
+}
+
+}
